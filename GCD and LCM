@@ -1,0 +1,15 @@
+from math from gcd
+# Lcm and Gcd for three numbers
+def lcm(x,y,z):
+  gcd2 = gcd(y,z)
+  gcd3 = gcd(x,gcd(2))
+  lcm2 = y*2//gcd2
+  lcm3 = x*lcm2//gcd(x,lcm2)
+  return (lcm3,gcd3)
+h = input("press 1 for two numbers LCM or \n press 2 for three numbers LCM \n :")
+if h=="2":
+  x = int(input("Number 1:"))
+  y = int(input("Number 2:"))
+  z = int(inp(("Number 3:"))
+  (res1,res2) = lcm(x,y,z)
+  print("The LCM and GCD of "+str(x)+"and"+str(y)+"and"+str(z)+"is" (res1,res2))
